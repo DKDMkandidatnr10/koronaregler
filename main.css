@@ -108,10 +108,21 @@ Kilde: https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger
 footer{
     text-align: center;
     width: 100%;
+    padding-top: 10px;
     background-color: #DEF2F1;
     position: absolute;
     margin-top: 200px; /*Margin tilsvarer padding på wrap bilde slik at de ikke overlapper*/
 }
+
+footer a{
+    color: #17252A;
+}
+
+footer a:hover {
+    color: #A30083;
+    text-decoration:none;
+}
+
 
 /*STYLING INDEX*/
 
@@ -204,10 +215,14 @@ Kilde: https://jsfiddle.net/bootstrapious/cqkpjvfw */
     margin: 10px;
 }
 
-
-@media screen and (max-width:500px) {
+@media screen and (max-width:800px) {
+    
+    
+    
+}
+@media screen and (max-width:767px) {
    
-/*Endret bakgrunnsfarge og fontfarge i mobil visning*/
+/*Endret til tilpasset visning på mobile flater akkurat i breakpoint der boksene går fra liggende horisontalt til vertikalt.*/
 #index{
     background-color:#2B7A78;
     height: 250px;
