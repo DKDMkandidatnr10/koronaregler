@@ -102,8 +102,9 @@ font-size: 20px;
     outline: none;
 }
 
-.button{
-    
+button{
+    border: none;
+    outline: none;
 }
 
 /*Farge på navbar*/
