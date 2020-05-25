@@ -96,6 +96,8 @@ font-size: 20px;
 
 /*Fjernet farger på hamburgerknapp*/
 .navbar-dark .navbar-toggler {
+    color: rgba(0,0,0,0);
+    border-color: rgba(0,0,0,0);
     border: none;
     outline: none;
 }
@@ -245,7 +247,7 @@ h4.facts, p.facts
 
 }
 
- .navbar-toggle {
+ .navbar-toggler {
       border: none;
       outline: none;
     }
