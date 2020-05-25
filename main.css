@@ -102,6 +102,10 @@ font-size: 20px;
     outline: none;
 }
 
+.button{
+    
+}
+
 /*Farge på navbar*/
 .bg-light {
     background-color: #2B7A78!important;
@@ -174,8 +178,8 @@ font-size: 20px;
 
 
 .stretched-link {
-    width: 100%;
-    position: relative;
+    width: ;
+    position:;
 }
 
 
