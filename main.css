@@ -4,13 +4,20 @@
 
 /*wrap for body på index - må endre navn*/
 #test { 
-    background-color: #FEFFFF;
+    background: 
+    
     
 }
 /*Sjekke at all css enten er em eller px*/
 #wrap{
     background:url(Virus-bunnillustrasjon-04.png) no-repeat center bottom; 
-    padding-bottom: 250px;
+    padding-bottom:200px;
+    
+}
+
+.container{
+    position: relative;
+    min-height: 100vh;
 }
 
 
@@ -127,13 +134,9 @@ button{
 /*Forsidebilde*/
 #index{
     background-color: #;
-    height: 500px;
+    height: 400px;
 }
 
-/*introtekst og tittel på forsiden*/
-.index{
-    padding-top:200px;
-}
 
 
 /*Menybokser på indexsiden*/
@@ -177,8 +180,14 @@ button{
 }
 */
 
-.btn-link{
-    
+
+
+footer{
+    text-align: center;
+    width: 100%;
+    background-color: #DEF2F1;
+    position: absolute;
+    margin-top: 200px;
 }
 
 
@@ -220,7 +229,6 @@ button{
 {
     background-color: #DEF2F1;
     padding: 10px;
-    margin-bottom: ;
 }
 
 .facts{
@@ -240,16 +248,11 @@ h4.facts, p.facts
 /*Fjerne bildet eller legge det i bunn på mobilskjerm*/
 
     #index{
-    background:none;
-    height: 300px;
+    background-color:#2B7A78;
+    height: 200px;
 }
-    #test{
-       background-color: #FEFFFF; 
-    }
+  
 
-.index{
-    padding-top:100px;
-}
     .menu-body{
     margin-bottom: 10px;
      height: 200px;
