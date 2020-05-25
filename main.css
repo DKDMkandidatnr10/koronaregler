@@ -12,40 +12,40 @@
 }
 
 h1{
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 48px;
-text-transform: uppercase;
-color: #3AAFA9;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #3AAFA9;
 }
 
 h2{
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-color: #2B7A78;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #2B7A78;
 }
 
 h2.menu{
-color: #17252A;
+    color: #17252A;
 }
 
 h3{
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-color: #2B7A78;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #2B7A78;
 }
 
 p {
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-color: #17252A;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #17252A;
 }
 
 /*Måtte endre fonten på denne siden for å samsvare med infografikken*/
@@ -56,24 +56,24 @@ p.facts
 }
 
 p.lead, p.lead-index {
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-color: #17252A;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #17252A;
 }
 
 ul {
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-color: #17252A;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #17252A;
 }
 
 /*Fjernet styling på hover*/
 a:hover {
-  color: rgba(0,0,0,0);
+    color: rgba(0,0,0,0);
 }
 
 /*Farge på navbar - overskrive bootstrap - kunne heller brukt navbar-custom og stylet fra scratch*/
@@ -82,12 +82,11 @@ a:hover {
 }
 
 /*Font i navbar*/
-ul.navbar-nav
-{
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
+ul.navbar-nav{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
 }
 
 /*Fjernet farger på hamburgermeny
@@ -204,50 +203,25 @@ Kilde: https://jsfiddle.net/bootstrapious/cqkpjvfw */
 }
 
 
-
-
-
 @media screen and (max-width:500px) {
    
-/*Fjerne bildet eller legge det i bunn på mobilskjerm*/
-
-    #index{
+/*Endret bakgrunnsfarge og fontfarge i mobil visning*/
+#index{
     background-color:#2B7A78;
     height: 200px;
 }
   
 h1.index{
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 48px;
-text-transform: uppercase;
-color: white;
+    color: #FEFFFF;
 }
     
 p.lead-index {
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-color: white;
+    color: #FEFFFF;
 }
 
-    .menu-body{
+.menu-body{
     margin-bottom: 10px;
-     height: 200px;
-
+    height: 200px;
 }
 
- .navbar-toggler {
-      border: none;
-      outline: none;
-    }
-    
-.button{
-    border: none;
-    outline: none;
-    color: rgba(0,0,0,0);
-    border-color: rgba(0,0,0,0);
-}
 }
