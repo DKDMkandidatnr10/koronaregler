@@ -13,7 +13,6 @@
     <link rel="icon" href="virus_ikon_full_gront-25.svg">
     <title>Koronaregler</title>
     
-    <!--Template based on URL below-->
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/starter-template/">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="main.css" rel="stylesheet" type="text/css">
@@ -25,12 +24,12 @@
  <!-- Navbar -->   
      <nav class="navbar navbar-expand-md navbar-dark bg-light fixed-top">
         <a class="navbar-brand" href="index.html"><img src="Logo-23.png" alt="Illustrert forstørrelsesglass med virus"></a>
-        <a class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            
-            <!--se om det er mulig å legge inn styilingen i css-->
-            <span><i class="fas fa-bars" style="color:white; font-size:35px;"></i></span>
-        </a>
-
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+           
+            <!--Kilde styling hamburger: https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color -->
+            <span><i class="hamburger fas fa-bars"></i></span>
+         </button>
+         
     <!-- hvordan få inn aktive lenker på siden du står på? -->
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav mr-auto">
