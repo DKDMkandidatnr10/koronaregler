@@ -215,11 +215,11 @@ Kilde: https://jsfiddle.net/bootstrapious/cqkpjvfw */
     margin: 10px;
 }
 
-@media screen and (max-width:800px) {
-    
-    
-    
-}
+/*For å unngå at bildene på fakta.html overlapper når siden er responsiv. Kilde: https://stackoverflow.com/questions/39759892/html-css-make-image-resize-on-smaller-screens*/    
+img {
+  max-width: 100%;
+}  
+
 @media screen and (max-width:767px) {
    
 /*Endret til tilpasset visning på mobile flater akkurat i breakpoint der boksene går fra liggende horisontalt til vertikalt.*/
