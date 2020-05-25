@@ -2,16 +2,14 @@
     box-sizing: border-box;
 }
 
-/*Sjekke at all css enten er em eller px*/
 #wrap{
     background:url(Virus-bunnillustrasjon-04.png) no-repeat center bottom; 
     padding-bottom:200px;
-    
 }
+
 .container{
     position: relative;
 }
-
 
 h1{
 font-family: 'Roboto', sans-serif;
@@ -50,12 +48,11 @@ font-size: 14px;
 color: #17252A;
 }
 
-/*Måtte endre disse fordi fonten er annerledes i infografikken*/
+/*Måtte endre fonten på denne siden for å samsvare med infografikken*/
 p.facts
 {
     font-family: 'Myriad pro', sans-serif;
     font-size: 18px;
-
 }
 
 p.lead, p.lead-index {
@@ -74,12 +71,17 @@ font-size: 14px;
 color: #17252A;
 }
 
+/*Fjernet styling på hover*/
 a:hover {
   color: rgba(0,0,0,0);
 }
 
+/*Farge på navbar - overskrive bootstrap - kunne heller brukt navbar-custom og stylet fra scratch*/
+.bg-light {
+    background-color: #2B7A78!important;
+}
 
-/*Tekst i navbar*/
+/*Font i navbar*/
 ul.navbar-nav
 {
 font-family: 'Roboto', sans-serif;
@@ -88,26 +90,43 @@ font-weight: normal;
 font-size: 20px;
 }
 
-/*Fjernet farger på hamburgerknapp*/
+/*Fjernet farger på hamburgermeny
+Kilde: https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color
+*/
 .navbar-dark .navbar-toggler {
     color: rgba(0,0,0,0);
     border-color: rgba(0,0,0,0);
     border: none;
     outline: none;
 }
+.hamburger{
+    color: #FEFFFF; 
+    font-size:35px;
+}
 
+/*Forsøkt fjernet styling på type=button i mobil visning - fungerer ikke - gjelder både hamburdger som er klasse og accordion som er type button*/
 .button{
     border: none;
     outline: none;
     color: rgba(0,0,0,0);
     border-color: rgba(0,0,0,0);
 }
-
-/*Farge på navbar*/
-.bg-light {
-    background-color: #2B7A78!important;
+button{
+    border: none;
+    outline: none;
+    color: rgba(0,0,0,0);
+    border-color: rgba(0,0,0,0);
 }
 
+footer{
+    text-align: center;
+    width: 100%;
+    background-color: #DEF2F1;
+    position: absolute;
+    margin-top: 200px; /*Margin tilsvarer padding på wrap bilde slik at de ikke overlapper*/
+}
+
+/*STYLING INDEX*/
 
 /*Forsidebilde*/
 #index{
@@ -115,23 +134,22 @@ font-size: 20px;
     height: 400px;
 }
 
-
-
 /*Menybokser på indexsiden*/
 .menu-body{
     background-color: #DEF2F1;
     padding: 10px;
     text-align: center;
-     display: block;
+    display: block;
     height: 100%;
-
 }
 
+/*Kilde: https://stackoverflow.com/questions/676324/div-background-color-to-change-onhover */
 .menu-body:hover{
     background-color: #3AAFA9;
     text-align: center;
 }
 
+/*STYLING REGLER*/
 
 /*Bakgrunnsfargen på accordion */
 .card-header {
@@ -139,14 +157,12 @@ font-size: 20px;
     display: block;
 }
 
-
-
+/*Chevron
+Kilde: https://jsfiddle.net/bootstrapious/cqkpjvfw */
 .stretched-link {
     width: 100%;
     position:relative;
 }
-
-
 
 .stretched-link::before {
     font-family: 'FontAwesome';
@@ -165,35 +181,30 @@ font-size: 20px;
 }
 
 
+/*STYLING SYK*/
 
-/*Bokser på sykdomssiden - endre farge på teksten */
 .symptoms-card{
     background-color: #DEF2F1;
     margin-top: 10px;
     padding: 10px;
-    
 }
 
-/*Farge på bakgrunnen til smittetallet*/
+/*STYLING FAKTA*/
+
+/*Bakgrunnen til smittetallet R*/
 .repro-no
 {
     background-color: #DEF2F1;
     padding: 10px;
 }
 
+/*Margin rundt tekst*/
 .facts{
     margin: 10px;
 }
 
 
 
-footer{
-    text-align: center;
-    width: 100%;
-    background-color: #DEF2F1;
-    position: absolute;
-    margin-top: 200px;
-}
 
 
 @media screen and (max-width:500px) {
