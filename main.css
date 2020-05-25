@@ -96,8 +96,8 @@ font-size: 20px;
 
 /*Fjernet farger på hamburgerknapp*/
 .navbar-dark .navbar-toggler {
-    color: rgba(0,0,0,0);
-    border-color: rgba(0,0,0,0);
+    border: none;
+    outline: none;
 }
 
 /*Farge på navbar*/
@@ -180,7 +180,7 @@ font-size: 20px;
 
 .stretched-link::before {
     font-family: 'FontAwesome';
-    content: '\f077';
+    content: '\f078';
     position: absolute;
     top: 50%;
     right: 1rem;
@@ -191,7 +191,7 @@ font-size: 20px;
 }
 
 .stretched-link[aria-expanded='true']::before {
-    content: '\f078';
+    content: '\f077';
 }
 
 
@@ -245,5 +245,8 @@ h4.facts, p.facts
 
 }
 
-
+ .navbar-toggle {
+      border: none;
+      outline: none;
+    }
 }
