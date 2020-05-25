@@ -13,110 +13,111 @@
     <link rel="icon" href="virus.svg">
     <title>Koronaregler</title>
     
+    <!--Template based on URL below-->
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/starter-template/">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="main.css" rel="stylesheet" type="text/css">
 </head>
 
-<!-- Angir id for ulik forside-->
-<body id="test"> 
-    
+<body id="wrap"> 
+
 <header>   
-    <nav class="navbar navbar-expand-md navbar-dark bg-light fixed-top">
+ <!-- Navbar -->   
+     <nav class="navbar navbar-expand-md navbar-dark bg-light fixed-top">
         <a class="navbar-brand" href="index.html"><img src="Logo-23.png" alt="Illustrert forstørrelsesglass med virus"></a>
         <a class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            
-            <!--se om det er mulig å legge inn styilingen i css-->
+           
+            <!--se om det er mulig å legge inn stylingen i css-->
             <span><i class="fas fa-bars" style="color:white; font-size:35px;"></i></span></a>
-
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Koronaregler<span class="sr-only"></span></a>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Koronaregler</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="regler.html">Hva er lov?</a>
+                    <a class="nav-link" href="regler.html">Hva er lov?</a>   
                 </li>        
                 <li class="nav-item">
                     <a class="nav-link" href="syk.html">Karantene og isolasjon</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="fakta.html">Tall og fakta</a>
+            <!--Makes the current side active-->
+                <li class="nav-item active">
+                    <a class="nav-link" href="fakta.html">Tall og fakta<span class="sr-only"></span></a>
                 </li>
             </ul>
         </div>
     </nav>
 </header> 
- 
-
-    
        
-<section id="index">
-    <div class="container">        
-        <div class="text-left mt-5 pt-5 index">
-            <h1>Koronaregler</h1>
-            <p class="lead">En enkel oversikt over råd og regler som sier noe om hvordan du skal forholde deg til koronapandemien.</p>
-        </div> 
-    </div> 
-</section>
-           
 <section>
-    <div class="container">   
+    <div class="container">
+        <div class="text-left mt-5 pt-5">
+            <h1>Tall og fakta</h1>
+        </div>
+    </div>  
+    <div class="container">
         <div class="row">
-            <div class="col-12 col-md-4" >
-                <a class="menu-body" href="regler.html">
-                    <img src="Logo-23.png">
-                    <h3>Hva er lov?</h3>
-                    <p class="lead">Oversikt over gjeldene råd fra myndighetene.</p>
-                </a>
+            <div class="col-xl-6">
+                <img src="Status_Norge_vertikal-16.png" class="img-fluid">
             </div>
-            <div class="col-12 col-md-4">
-                <a class="menu-body" href="syk.html">
-                <h3>Syk</h3>
-                <p class="lead">Retningslinjer for luftveisinfeksjon, karantene og isolasjon.</p>
-                </a>
+            <div class="col-xl-6">
+                <img src="Verdensbasis_vertikal_3-15.png" class="img-fluid">
             </div>
-            <div class="col-12 col-md-4">
-                <a class="menu-body" href="fakta.html">
-                <h3>Tall og fakta</h3>
-                <p class="lead">Status og utvikling i pandemien, i Norge og i verden.</p>
-                </a>
+        </div>
+        <div class="row repro-no">
+            <div class="col-xl-4">
+                <img src="Smittetallet_r-20.png">
             </div>
+            <div class="col-xl-4">
+                <img src="smittetallet_illustrasjon-19.png" >
+            </div>
+            <div class="col-xl-4">
+                <h4 class="facts">Smittetallet R (reproduksjonstallet) er en beregning av hvor mange en smittet i gjennomsnitt smitter videre.</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-12">
+            <h1>Smitten dag for dag</h1> 
+        </div>
+        </div>
+        <div class="row">
+            <img src="graf_smittede_tilfeller.gif" class="img-fluid">
         </div>
     </div>
-</section>
+</section> 
+       
+       
+       
+        <footer class="footer">
+                     <div class="container">
 
-
-<footer>  
-    <container>
-        <nav class="navbar navbar-light ">
+                
+        <div class="row">
             
-            <a class="navbar-brand " href="">
+            <div class="col-md-12">
+                <div class="footer text-center mt-5 pt-5">
+                    <h4>All data er basert på tall fra Folkehelseinstituttet 22. mai 2020.</h4>
             
-            
-            
-            <div class="">
-                <div class="footer  mt-5 pt-5"><p>
-            Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></p></div>
                 </div>
-            <div class="">
-                <p class="footer  mt-5 pt-5">
-            All data er basert på tall fra Folkehelseinstituttet 22. mai 2020.</p>
+            </div>
+            
+            
+        </div>
+          <!--               
+        <div class="row">
+            <div class="col-md-6">
+                <p class="footer text-left mt-5 pt-5">
+            Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></p>
+            </div>
+            <div class="col-md-6">
+                <p class="footer text-left mt-5 pt-5">
+            Bunntekst høyre </p>
             </div>
 
-                  
-            <p></p></a>
-        <div>
-            <a href="">
-                <img src="">fhi.no
-            </a>
-            <a href="">
-                <img src="">helsenorge.no
-            </a>
         </div>
-        </nav>
-        </container>
-    </footer>
+          -->               
+  </div>
+</footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

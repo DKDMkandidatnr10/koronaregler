@@ -1,0 +1,249 @@
+*{
+    box-sizing: border-box;
+}
+
+/*wrap for body på index - må endre navn*/
+#test { 
+    background-color: #FEFFFF;
+    
+}
+/*Sjekke at all css enten er em eller px*/
+#wrap{
+    background:url(Virus-bunnillustrasjon-04.png) no-repeat center bottom; 
+    padding-bottom: 250px;
+}
+
+
+h1{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+text-transform: uppercase;
+color: #3AAFA9;
+}
+
+h2{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+color: #2B7A78;
+}
+
+h3{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+color: #2B7A78;
+}
+
+h4 {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+color: #2B7A78;
+}
+
+h5 {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+color: #17252A;
+}
+
+p {
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+color: #17252A;
+}
+
+
+p.lead {
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+color: black;
+}
+
+ul {
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+color: #17252A;
+}
+
+a:hover {
+  color: rgba(0,0,0,0);
+}
+
+
+/*Tekst i navbar*/
+ul.navbar-nav
+{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+}
+
+/*Fjernet farger på hamburgerknapp*/
+.navbar-dark .navbar-toggler {
+    color: rgba(0,0,0,0);
+    border-color: rgba(0,0,0,0);
+}
+
+/*Farge på navbar*/
+.bg-light {
+    background-color: #2B7A78!important;
+}
+
+/* Finne ut om jeg ka bytte ikon
+.navbar-toggler a:after{
+    font-family:Fontawesome;
+    content:'\f077';
+    float:right;
+    font-size:30px;
+    font-weight:300;
+}
+*/
+
+/*Forsidebilde*/
+#index{
+    background-color: #;
+    height: 500px;
+}
+
+/*introtekst og tittel på forsiden*/
+.index{
+    padding-top:200px;
+}
+
+
+/*Menybokser på indexsiden*/
+.menu-body{
+    background-color: #DEF2F1;
+    padding: 10px;
+    text-align: center;
+     display: block;
+    height: 100%;
+
+}
+
+.menu-body:hover{
+    background-color: #3AAFA9;
+    text-align: center;   
+}
+
+
+/*Bakgrunnsfargen på accordion */
+.card-header {
+    background-color: white;
+    display: block;
+}
+
+/*Chevron - må få de høyrestilt
+
+.card-header a:after {
+    font-family:Fontawesome;
+    position: absolute;
+    content:'\f077';
+    float:right;
+    font-size:30px;
+    font-weight:300;
+    
+}
+.card-header a.collapsed:after {
+    font-family:Fontawesome;
+    content:'\f078';
+        float:right;
+
+}
+*/
+
+
+
+
+.stretched-link {
+    width: 100%;
+    position: relative;
+}
+
+
+
+.stretched-link::before {
+    font-family: 'FontAwesome';
+    content: '\f077';
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    display: block;
+    font-size:30px;
+    font-weight:300;
+}
+
+.stretched-link[aria-expanded='true']::before {
+    content: '\f078';
+}
+
+
+
+/*Bokser på sykdomssiden - endre farge på teksten */
+.symptoms-card{
+    background-color: #DEF2F1;
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+
+/*Farge på bakgrunnen til smittetallet Endre navn på klassen*/
+.repro-no
+{
+    background-color: #DEF2F1;
+    padding: 10px;
+    margin-bottom: ;
+}
+
+.facts{
+    margin: 2em;
+}
+
+/*Måtte endre disse fordi fonten er annerledes i infografikken*/
+h4.facts, p.facts
+{
+    font-family: 'Myriad pro', sans-serif;
+    color: #17252A;
+}
+
+
+@media screen and (max-width:800px) {
+   
+/*Fjerne bildet eller legge det i bunn på mobilskjerm*/
+
+    #index{
+    background:none;
+    height: 300px;
+}
+    #test{
+       background-color: #FEFFFF; 
+    }
+
+.index{
+    padding-top:100px;
+}
+    .menu-body{
+    margin-bottom: 10px;
+     height: 200px;
+
+}
+
+
+}

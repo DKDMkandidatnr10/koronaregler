@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+      <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <!-- Font Awesome script-->
+    <script src="https://kit.fontawesome.com/8429072317.js" crossorigin="anonymous"></script>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="virus.svg">
+    <title>Koronaregler</title>
+    
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/starter-template/">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body id="wrap"> 
+
+<header>   
+ <!-- Navbar -->   
+     <nav class="navbar navbar-expand-md navbar-dark bg-light fixed-top">
+        <a class="navbar-brand" href="index.html"><img src="Logo-23.png" alt="Illustrert forstørrelsesglass med virus"></a>
+        <a class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            
+            <!--se om det er mulig å legge inn styilingen i css-->
+            <span><i class="fas fa-bars" style="color:white; font-size:35px;"></i></span></a>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Koronaregler</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="regler.html">Hva er lov?<span class="sr-only"></span></a>
+                </li>        
+                <li class="nav-item">
+                    <a class="nav-link" href="syk.html">Karantene og isolasjon</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="fakta.html">Tall og fakta</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header> 
+       
+       
+<section id="rules">
+    <div class="container">
+        <div class="text-left mt-5 pt-5">
+            <h1>Hva er lov?</h1>
+            <p class="lead">Råd og retningslinjer om sosial distansering for å begrense smitte og bekjempe koronapandemien.<br>Alle råd og retningslinjer er gitt av norske myndigheter.</p> 
+        </div>         
+    </div>
+        <!--how to make the collapsed card remains open while linking to them from the navbar?-->
+    <!-- Mulig denne skal slås sammen med den over -->
+    <div class="container">
+    <div class="row">
+    <div class="accordion col-12 " id="accordionExample">
+         
+        <!--Card number one with button tag removed-->   
+        <div class="card border border-dark border-right-0 border-left-0">
+            <h3 class="card-header" id="headingOne">
+                <a class="btn-link collapsed stretched-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Kan jeg bade?</a>
+                
+            </h3>
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <p class="card-body">Ja.<br>Ved bading i fersk- eller saltvann er det ingen risiko for å bli smittet med covid-19 fra badevannet.</p>
+            </div>    
+        </div>
+            
+            
+       <!--Card number two with picture in it--> 
+        <div class="card border-right-0 border-left-0">
+            <h3 class="card-header" id="headingTwo">
+                <a class="btn-link stretched-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Kan jeg reise på ferie?</a>
+            </h3>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body"> 
+                    <div class="row">
+                    <div class="col-sm-8">
+                        <h4>Til utlandet</h4>
+                        <p>Nei.<br>Utenriksdepartementet fraråder reiser som ikke er strengt nødvendige til alle land.
+                        </p>
+                        <h4>I Norge</h4>
+                        <p>Ja.<br>Ferie- og fritidsreiser i Norge er tillatt. Du kan også dra på hytta.
+                        </p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="Ja-ikon-06.png">
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+             
+       <!-- Card number three, no changes-->
+        <div class="card border border-dark border-right-0 border-left-0">
+            <h3 class="card-header" id="headingThree">
+                <a class="btn-link stretched-link" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Sende post, pakker og postkort</a> 
+            </h3>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                <div class="row">
+                    <div class=".col-6 col-md-4">
+                    <img src="Ja-ikon-06.png">
+                </div>
+                <div class=".col-12 col-md-8">
+                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute.</p>
+                </div>
+                 
+                </div>
+                </div>
+            </div>
+        </div>
+             
+            
+        <div class="card border border-dark border-right-0 border-left-0 border-top-0">
+            <h3 class="card-header" id="headingFour">
+                <a class="btn-link stretched-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Kan jeg dra til legen?</a>
+            </h3>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                <p class="card-body">Ja.<br>Virksomheter hvor helsepersonell som tannleger, fysioterapeuter, psykologer og andre har én-til-én-kontakt, kan nå møte pasientene sine ansikt til ansikt, forutsatt at en bransjestandard for smittevern blir fulgt.</p>
+            </div>
+        </div>
+            
+            
+        <div class="card border border-dark border-right-0 border-left-0 border-top-0">
+            <h3 class="card-header" id="headingFive">
+                <a class="btn-link stretched-link" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Kan jeg drikke øl på utested?</a>
+            </h3>
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+            <p class="card-body">Ja.<br>Så lenge dere ikke er mer enn 20 personer og dere holder minst en meters avstand.
+            </div>
+        </div>
+            
+            
+        <div class="card border border-dark border-right-0 border-left-0 border-top-0">
+            <h3 class="card-header" id="headingSix">
+                <a class="btn-link stretched-link" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">Kan jeg bestille take away?</a>
+            </h3>
+            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                <p class="card-body">Ja.<br>Det er trygt å kjøpe mat fra restauranter som tilbyr take away.</p> 
+            </div>
+        </div>
+           
+        <div class="card border border-dark border-right-0 border-left-0 border-top-0">
+            <h3 class="card-header" id="headingSeven">
+                <a class="btn-link stretched-link" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">Kan jeg gå på kafé?</a>
+            </h3>
+            <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                <p class="card-body">Ja.<br>Kaféer er åpne, og du kan være der så lenge du holder minst en avstands meter fra andre.</p>
+            </div>
+        </div>
+        
+        <div class="card border border-dark border-right-0 border-left-0 border-top-0">
+            <h3 class="card-header" id="headingEight">
+                <a class="btn-link stretched-link" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">Hvor mange kan vi møtes?</a>
+            </h3>
+            <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+                <p class="card-body">Ja.<br>I private sammenhenger kan vi nå være maksimalt 20 personer samlet, så lenge vi holder én meter avstand mellom oss.<br>Dette gjelder for private sammenkomster og løsere arrangementer både innendørs og utendørs uten ansvarlig arrangør.</p>
+            </div>
+        </div>
+        
+        <div class="card border border-dark border-right-0 border-left-0 border-top-0">
+            <h3 class="card-header" id="headingNine">
+                <a class="btn-link stretched-link" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">Kan jeg dra i butikken?</a>
+            </h3>
+            <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
+                <p class="card-body">Ja.<br>Butikker holder åpent som vanlig. Husk god håndhygiene og hold god avstand til andre. Ikke ta på mer enn det du skal kjøpe. Vask frukt og grønnsaker godt.</p>
+            </div>
+        </div>
+            
+        <div class="card border border-dark border-right-0 border-left-0 border-top-0">
+            <h3 class="card-header" id="headingTen">
+                <a class="btn-link stretched-link" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">Kan jeg trene?
+                </a>
+            </h3>
+            <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample">
+                <p class="card-body">Ja.<br>Treninger og annen organisert idrettsaktivitet kan gjennomføres for inntil 20 personer som holder minst én meter avstand. Treningssentre er forventet åpnet 15. juni.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div> 
+</section>
+       
+       
+       <footer class="footer">
+                     <div class="container">
+
+                
+        <div class="row">
+            
+            <div class="col-md-12">
+                <div class="footer text-center mt-5 pt-5">
+                    <h3></h3>
+                
+            
+                </div>
+            </div>
+            
+            
+        </div>
+                         
+        <div class="row">
+            <div class="col-md-6">
+                <p class="footer text-left mt-5 pt-5">
+            Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></p>
+            </div>
+            <div class="col-md-6">
+                <p class="footer text-left mt-5 pt-5">
+            Bunntekst høyre </p>
+            </div>
+
+        </div>
+                         
+  </div>
+</footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
