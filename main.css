@@ -11,8 +11,6 @@
 
 #wrap{
     padding-bottom: 250px;
-    
-    
 }
 
 h1{
@@ -89,8 +87,6 @@ a:hover {
 /*Farge på navbar - overskrive bootstrap - kunne heller brukt navbar-custom og stylet fra scratch*/
 .bg-light {
     background-color: #2B7A78!important;
-    
-    
 }
 
 /*Font i navbar*/
@@ -243,14 +239,11 @@ img {
    
 /*Endret til tilpasset visning på mobile flater akkurat i breakpoint der boksene går fra liggende horisontalt til vertikalt.*/
 #index{
-    
     height: 250px;
 }
   
 #wrap{
     padding-bottom: 150px;
-    
-    
 }
 
 .menu-body{
