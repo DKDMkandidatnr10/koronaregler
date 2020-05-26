@@ -1,7 +1,6 @@
 *{
     box-sizing: border-box;
 }
-
 /*Kilde: https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/*/
 #content-container{
     background:url(Virus-bunnillustrasjon-04.png) no-repeat center bottom; 
@@ -10,7 +9,8 @@
 }
 
 #wrap{
-    padding-bottom: 250px;
+    padding-bottom: 300px;
+    margin: 0px;
 }
 
 h1{
@@ -52,6 +52,7 @@ p{
     font-weight: normal;
     font-size: 14px;
     color: #17252A;
+    margin-bottom: 0;
 }
 
 p.facts
@@ -81,16 +82,10 @@ ul{
     color: #17252A;
 }
 
-.nav-link a:hover{
-    color: black;
-}
+/*STYLING NAVBAR*/
 
-/*Fjernet styling på hover i menucards*/
-a:hover {
-    color: rgba(0,0,0,0);
-}
 
-/*Farge på navbar - overskrive bootstrap - kunne heller brukt navbar-custom og stylet fra scratch*/
+/*Farge på navbar*/
 .bg-light {
     background-color: #2B7A78!important;
 }
@@ -101,7 +96,6 @@ ul.navbar-nav{
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
-    color: aqua;
 }
 
 /*Fjernet farger på hamburgermeny
@@ -118,11 +112,13 @@ Kilde: https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger
     font-size:35px;
 }
 
+/*STILNG FOOTER*/
+
 #footer{
     position: absolute;
     text-align: center;
     bottom: 0;
-    height: 60px;
+    padding: 10px;
     width: 100%;
     background-color: #DEF2F1;
    
@@ -138,7 +134,6 @@ Kilde: https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger
     text-decoration:none;
 }
 
-
 /*STYLING INDEX*/
 
 /*Forsidebilde*/
@@ -150,10 +145,15 @@ Kilde: https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger
 /*Menybokser på indexsiden*/
 .menu-body{
     background-color: #DEF2F1;
-    padding: 10px;
+    padding: ;
     text-align: center;
     display: block;
     height: 100%;
+}
+
+/*Fjernet styling på hover i menucards*/
+a:hover {
+    color: rgba(0,0,0,0);
 }
 
 /*Kilde: https://stackoverflow.com/questions/676324/div-background-color-to-change-onhover */
@@ -233,7 +233,7 @@ img {
   max-width: 100%;
 }  
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:767.98px) {
    
 /*Endret til tilpasset visning på mobile flater akkurat i breakpoint der boksene går fra liggende horisontalt til vertikalt.*/
 #index{
@@ -248,6 +248,5 @@ img {
     margin-bottom: 10px;
     height: 200px;
 }
- 
 
 }

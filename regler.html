@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Koronaregler</title>
+    <title>Koronaregler - Hva er lov?</title>
     <meta name="description" content="Råd, regler og retningslinjer under koronapandemien.">
     <meta name="author" content="Kandidatnummer 10">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -21,20 +21,15 @@
 <body> 
 
 <header>   
- <!-- Navbar -->   
-     <nav class="navbar navbar-expand-md navbar-dark bg-light fixed-top">
-        <a class="navbar-brand" href="index.html"><img src="Logo-23.png" alt="Illustrert forstørrelsesglass med virus"></a>
+    <nav class="navbar navbar-expand-md navbar-dark bg-light fixed-top">
+        <a class="navbar-brand" href="index.html" title="Lenke til forsiden"><img src="virus-ikon-hvitt-26.png" alt="ikon virus"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
            
-            <!--Kilde styling hamburger: https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color -->
+            <!--Kilde endre hamburger: https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color -->
             <span><i class="hamburger fas fa-bars"></i></span>
-         </button>
-         
+        </button>
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Koronaregler</a>
-                </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="regler.html">Hva er lov?<span class="sr-only"></span></a>
                 </li>        
@@ -53,18 +48,18 @@
 <div id="content-container">
 <div id="wrap">
     <div class="container">
-   <section id="rules">
+   <section>
         <div class="text-left mt-5 pt-5">
             <h1>Hva er lov?</h1>
             <p class="lead">Råd og retningslinjer om sosial distansering for å begrense smitte og bekjempe koronapandemien.<br>Alle råd og retningslinjer er gitt av norske myndigheter.</p> 
         </div>         
-
+<!-- Kilde: https://getbootstrap.com/docs/4.5/components/collapse/#accordion-example -->
     <div class="row">
     <div class="accordion col-12 " id="accordionExample">
         <div class="card border border-dark border-right-0 border-left-0">
             <div class="card-header" id="headingOne">
                 <button class="btn collapsible-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                    <h2>Kan jeg bade?</h2>
+                   <h2>Kan jeg bade?</h2>
                 </button>
             </div>
             <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
@@ -214,11 +209,10 @@
 </div>
 </div>
 <footer id="footer">
-            <p>All data er basert på tall fra helsemyndighetene 22. mai 2020<br>
-                <a href="https://www.fhi.no" alt="Lenke til Folkehelseinstituttet nettside">fhi.no </a> og
-                <a href="https://www.helsenorge.no" alt="Lenke til Helsenorge nettside">helsenorge.no
-                </a>
-            </p>
+    <p>All data er basert på tall fra helsemyndighetene 22. mai 2020<br>
+        <a href="https://www.fhi.no" title="Lenke til Folkehelseinstituttet nettside">fhi.no </a> og
+        <a href="https://www.helsenorge.no" title="Lenke til Helsenorge nettside">helsenorge.no</a>
+    </p>
 </footer>
 </div>
 
