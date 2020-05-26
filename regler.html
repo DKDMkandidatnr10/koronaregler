@@ -18,7 +18,7 @@
     <link href="main.css" rel="stylesheet" type="text/css">
 </head>
 
-<body id="wrap"> 
+<body> 
 
 <header>   
  <!-- Navbar -->   
@@ -49,8 +49,10 @@
     </nav>
 </header> 
 
-    
-<div class="container">
+
+<div id="content-container">
+<div id="wrap">
+    <div class="container">
    <section id="rules">
         <div class="text-left mt-5 pt-5">
             <h1>Hva er lov?</h1>
@@ -99,12 +101,12 @@
             
         <div class="card border border-dark border-right-0 border-left-0">
             <div class="card-header" id="headingThree">
-                <button class="btn collapsible-link" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><h2>Sende post, pakker og postkort</h2></button> 
+                <button class="btn collapsible-link" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><h2>Sende og motta post, pakker og postkort</h2></button> 
             </div>
             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                 <div class="card-body">
                     <h3>Ja.</h3>
-                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute.</p>
+                    <p>Risikoen for smitte ved overflater av pakker er nesten ikke til stede, men det anbefales god håndhygiene. Det er ingen studier som sier at noen har blitt smittet gjennom pakker.</p>
                 </div>
             </div>
         </div>
@@ -209,17 +211,17 @@
     </div>
     </div>
     </section>
-</div> 
-
- <footer>
-        <div class="col-12">
+</div>
+</div>
+<footer id="footer">
             <p>All data er basert på tall fra helsemyndighetene 22. mai 2020<br>
                 <a href="https://www.fhi.no" alt="Lenke til Folkehelseinstituttet nettside">fhi.no </a> og
                 <a href="https://www.helsenorge.no" alt="Lenke til Helsenorge nettside">helsenorge.no
                 </a>
             </p>
-        </div>         
 </footer>
+</div>
+
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

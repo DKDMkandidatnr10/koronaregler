@@ -18,7 +18,7 @@
     <link href="main.css" rel="stylesheet" type="text/css">
 </head>
 
-<body id="wrap"> 
+<body> 
 
 <header>   
  <!-- Navbar -->   
@@ -50,16 +50,14 @@
     </nav>
 </header> 
        
-
-<!-- I denne delen er det veldig mange sections and divs, rydde opp-->
-    <div class="container">
-        <section>
-
-    <div class="text-left mt-5 pt-5">
-        <h1>Karantene og isolasjon</h1>
-        <p class="lead">Definisjoner og retningslinjer.</p>
-    </div>
-            <section>
+<div id="content-container">
+<div id="wrap">
+<div class="container">
+    <section>
+        <div class="text-left mt-5 pt-5">
+            <h1>Karantene og isolasjon</h1>
+            <p class="lead">Definisjoner og retningslinjer.</p>
+        </div>
 
         <div class="row symptoms-card">
             <div class="col-lg-4">
@@ -108,22 +106,17 @@
                 </ul>
             </div> 
         </div>
-
-            </section>         
-            </section>         
-
-    </div>
-
-<footer>
-        <div class="col-12">
+    </section>         
+</div>
+</div>
+<footer id="footer">
             <p>All data er basert på tall fra helsemyndighetene 22. mai 2020<br>
                 <a href="https://www.fhi.no" alt="Lenke til Folkehelseinstituttet nettside">fhi.no </a> og
                 <a href="https://www.helsenorge.no" alt="Lenke til Helsenorge nettside">helsenorge.no
                 </a>
             </p>
-        </div>         
 </footer>
-
+</div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

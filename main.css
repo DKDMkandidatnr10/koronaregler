@@ -2,13 +2,17 @@
     box-sizing: border-box;
 }
 
-#wrap{
+/*Kilde: https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/*/
+#content-container{
     background:url(Virus-bunnillustrasjon-04.png) no-repeat center bottom; 
-    padding-bottom:200px;
+    position: relative; 
+    min-height: 100vh; 
 }
 
-.container{
-    position: relative;
+#wrap{
+    padding-bottom: 250px;
+    
+    
 }
 
 h1{
@@ -71,7 +75,11 @@ ul {
     color: #17252A;
 }
 
-/*Fjernet styling på hover*/
+.nav-link a:hover{
+    color: black;
+}
+
+/*Fjernet styling på hover i menucards*/
 a:hover {
     color: rgba(0,0,0,0);
 }
@@ -81,6 +89,8 @@ a:hover {
 /*Farge på navbar - overskrive bootstrap - kunne heller brukt navbar-custom og stylet fra scratch*/
 .bg-light {
     background-color: #2B7A78!important;
+    
+    
 }
 
 /*Font i navbar*/
@@ -89,6 +99,15 @@ ul.navbar-nav{
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
+    color: aqua;
+}
+
+h1.index{
+    color: #FEFFFF;
+}
+    
+p.lead-index {
+    color: #FEFFFF;
 }
 
 /*Fjernet farger på hamburgermeny
@@ -105,20 +124,22 @@ Kilde: https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger
     font-size:35px;
 }
 
-footer{
-    text-align: center;
-    width: 100%;
-    padding-top: 10px;
-    background-color: #DEF2F1;
+#footer{
     position: absolute;
-    margin-top: 200px; /*Margin tilsvarer padding på wrap bilde slik at de ikke overlapper*/
+    text-align: center;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #DEF2F1;
+   
+     /*Margin tilsvarer padding på wrap bilde slik at de ikke overlapper*/
 }
 
-footer a{
+#footer a{
     color: #17252A;
 }
 
-footer a:hover {
+#footer a:hover {
     color: #A30083;
     text-decoration:none;
 }
@@ -128,8 +149,8 @@ footer a:hover {
 
 /*Forsidebilde*/
 #index{
-    background-color: aliceblue;
-    height: 400px;
+    background-color:#2B7A78;
+    height: 250px;
 }
 
 /*Menybokser på indexsiden*/
@@ -151,7 +172,7 @@ footer a:hover {
 
 /*Bakgrunnsfargen på accordion */
 .card-header {
-    background-color: white;
+    background-color: #FEFFFF;
     display: block;
 }
 
@@ -191,8 +212,6 @@ Kilde: https://jsfiddle.net/bootstrapious/cqkpjvfw */
 }
 
 
-
-
 /*STYLING SYK*/
 
 .symptoms-card{
@@ -224,21 +243,20 @@ img {
    
 /*Endret til tilpasset visning på mobile flater akkurat i breakpoint der boksene går fra liggende horisontalt til vertikalt.*/
 #index{
-    background-color:#2B7A78;
+    
     height: 250px;
 }
   
-h1.index{
-    color: #FEFFFF;
-}
+#wrap{
+    padding-bottom: 150px;
     
-p.lead-index {
-    color: #FEFFFF;
+    
 }
 
 .menu-body{
     margin-bottom: 10px;
     height: 200px;
 }
+ 
 
 }
