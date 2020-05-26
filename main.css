@@ -22,6 +22,10 @@ h1{
     color: #3AAFA9;
 }
 
+h1.index{
+    color: #FEFFFF;
+}
+
 h2{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -42,7 +46,7 @@ h3{
     color: #2B7A78;
 }
 
-p {
+p{
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -50,7 +54,6 @@ p {
     color: #17252A;
 }
 
-/*Måtte endre fonten på denne siden for å samsvare med infografikken*/
 p.facts
 {
     font-family: 'Myriad pro', sans-serif;
@@ -64,8 +67,13 @@ p.lead, p.lead-index {
     font-size: 18px;
     color: #17252A;
 }
+    
+p.lead-index {
+    color: #FEFFFF;
+}
 
-ul {
+
+ul{
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -82,8 +90,6 @@ a:hover {
     color: rgba(0,0,0,0);
 }
 
-
-
 /*Farge på navbar - overskrive bootstrap - kunne heller brukt navbar-custom og stylet fra scratch*/
 .bg-light {
     background-color: #2B7A78!important;
@@ -96,14 +102,6 @@ ul.navbar-nav{
     font-weight: normal;
     font-size: 20px;
     color: aqua;
-}
-
-h1.index{
-    color: #FEFFFF;
-}
-    
-p.lead-index {
-    color: #FEFFFF;
 }
 
 /*Fjernet farger på hamburgermeny
@@ -124,7 +122,7 @@ Kilde: https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger
     position: absolute;
     text-align: center;
     bottom: 0;
-    height: 50px;
+    height: 60px;
     width: 100%;
     background-color: #DEF2F1;
    
@@ -181,7 +179,7 @@ Kilde: https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger
 }
 
 
-/*Chevron
+/*CHEVRON
 Kilde: https://jsfiddle.net/bootstrapious/cqkpjvfw */
 .collapsible-link {
     width: 100%;
